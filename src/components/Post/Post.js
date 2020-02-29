@@ -6,12 +6,14 @@ function Post({ data }) {
   const { comments } = data;
 
   return (
-    <div>
+    <div className="postContainer">
       <img src={data.author.avatar} className="avatar" />
-      <span className="authorname">{data.author.name}</span>
-      <span className="postDate">
-        {data.date}
-      </span>
+      <div className="post">
+        <span className="authorname">{data.author.name}</span>
+        <span className="postDate">
+          {data.date}
+        </span>
+      </div>
       <p>
         {data.content}
       </p>
