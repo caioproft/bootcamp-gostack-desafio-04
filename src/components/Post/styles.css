@@ -1,0 +1,14 @@
+.avatar{
+  align-items: center;
+  width: 50px;
+  border-radius: 50px;
+}
+
+.authorname{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.postDate{
+  font-size: 12px;
+}
