@@ -30,11 +30,11 @@ As informações contidas na interface são estáticas, ou seja, não estão sen
 
 **1.** Para utilizar esta applicação, primeiramente clone este repositório para seu computador
 ```
-git clone
+git clone git@github.com:caioproft/bootcamp-gostack-desafio-04.git
 ```
 **2.** Acesse a pasta do projeto
 ```
-cd 
+cd bootcamp-gostack-desafio-04
 ```
 
 **3.** Instale as depêndencias da aplicação.
