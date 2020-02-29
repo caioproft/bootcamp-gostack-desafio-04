@@ -1,14 +1,30 @@
 .commentContainer{
+  margin-top: 30px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  margin-top: 30px;
+  align-items: flex-start;
 }
 
 .comment{
   background-color: #E9EBEE;
   border-radius: 20px;
-  padding: 10px;
+  padding: 15px;
   width: 80%;
-  margin-left: 30px;
+  margin-left: 15px;
+}
+
+#avatar{
+  border-radius: 50%;
+  width: 50px;
+}
+span{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+p{
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0 auto;
 }
