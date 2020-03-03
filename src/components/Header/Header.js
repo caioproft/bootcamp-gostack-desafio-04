@@ -7,19 +7,21 @@ class Header extends Component {
   render() {
     return (
       <>
-        <nav className="header">
-          <a href="#">
-            <img src={face} alt="Facebook logo" id="logo"></img>
-          </a>
-          <a href="#" className="profile">
-            <span>Meu perfil</span>
-            <img src={profile} id="profile"></img>
+        <header className="main-header">
+          <div className='content'>
+            <a href="#">
+              <img src={face} alt="Facebook logo" id="logo"></img>
+            </a>
+            <div className="profile">
+              <a href="#">
+                Meu perfil
+              <img src={profile} id="profile"></img>
+              </a>
+            </div>
+          </div>
 
-          </a>
 
-
-
-        </nav>
+        </header>
       </>
     )
   }

@@ -4,9 +4,14 @@ import './styles.css'
 function Comment({ data }) {
   return (
     <div className="commentContainer">
-      <img src={data.author.avatar} id="avatar"></img>
+      <img src={data.author.avatar} id="authorCommentAvatar"></img>
       <div className="comment">
-        <p><span>{data.author.name}</span>{data.content}</p>
+        <p>
+          <strong>
+            {data.author.name}
+          </strong>
+          {data.content}
+        </p>
       </div>
     </div>
   )

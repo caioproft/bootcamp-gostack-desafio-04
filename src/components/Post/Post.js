@@ -7,19 +7,23 @@ function Post({ data }) {
 
   return (
     <div className="postContainer">
-      <img src={data.author.avatar} className="avatar" />
 
-      <div className="post">
-        <span id="authorname">{data.author.name}</span>
-        <span id="postDate">
-          {data.date}
-        </span>
+      <div className="content">
+        <img src={data.author.avatar} id="authorAvatar" />
+        <div className="postInfo">
+          <span id="authorName">{data.author.name}</span>
+          <span id="postDate">
+            {data.date}
+          </span>
+        </div>
       </div>
       <p>
         {data.content}
       </p>
       <hr />
+
       {comments.map(comment => <Comment key={comment.id} data={comment} />)}
+
     </div>
   )
 }
